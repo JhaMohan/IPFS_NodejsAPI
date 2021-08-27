@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "3df6ab74-e94c-4c5d-b143-0c679a71619a",
+		"name": "fileupload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fileupload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "inputFile",
+							"type": "file",
+							"src": "/home/aditya/Pictures/1.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
